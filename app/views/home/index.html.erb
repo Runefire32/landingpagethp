@@ -2,7 +2,7 @@
 
 
 <div class="container">
-<div class="container-cent">
+   <div class="container-cent">
 	<br>
 	<% if user_signed_in? %>
 	<h1 class="main-title ">FindForMe</h1>
@@ -18,15 +18,17 @@
 			
 		
 	
-	
-	   <h4 class="main-title"><i class="em em-arrow_double_down"></i> Pour utiliser FindForMe vous devez vous <strong>Connecter</strong> ou bien vous <strong>Inscrire</strong> <i class="em em-arrow_double_down"></i><h4>
+	<div class="container-cent">
+	   <h4 class="main-title"><i class="em em-arrow_double_down"></i> Pour utiliser FindForMe vous devez vous <strong>Connecter</strong> ou bien vous <strong>Inscrire</strong> <i class="em em-arrow_double_down"></i></h4>
 		<%=  link_to "Inscription", new_user_registration_path , class: "btn btn-success", id: "ins" %> 
 
 		<%=  link_to "Connexion", new_user_session_path , class: "btn btn-success ", id: "con" %> 
-    
+    </div>
+    <br>
     <% end %>
 
- </div>
+</div>
+ 
 
 <div>
 <% if user_signed_in? %>
