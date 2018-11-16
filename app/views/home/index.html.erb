@@ -1,0 +1,47 @@
+<% provide(:title, "Home") %>
+
+
+<div class="container">
+<div class="container-cent">
+	<br>
+	<% if user_signed_in? %>
+	<h1 class="main-title ">FindForMe</h1>
+	 <h4 class="main-title">La première plateforme de recherche de stage ou de contract d'alternance <br><br>créée par des étudiants pour des étudiants </h4>
+		<%= link_to "Trouve une formation", root_path,  class: "btn btn-primary" %>
+
+
+
+	
+	   
+	   
+	<% else %>
+			
+		
+	
+	
+	   <h4 class="main-title"><i class="em em-arrow_double_down"></i> Pour utiliser FindForMe vous devez vous <strong>Connecter</strong> ou bien vous <strong>Inscrire</strong> <i class="em em-arrow_double_down"></i><h4>
+		<%=  link_to "Inscription", new_user_registration_path , class: "btn btn-success", id: "ins" %> 
+
+		<%=  link_to "Connexion", new_user_session_path , class: "btn btn-success ", id: "con" %> 
+    
+    <% end %>
+
+ </div>
+
+<div>
+<% if user_signed_in? %>
+ <h2 class="main-title">Bienvenue <strong><%= current_user.firstname %>. </strong>Connecté en tant que  <strong><%= current_user.email %>.</strong>
+ 	<%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "btn btn-primary2", id: "dec" %></h2>
+ 	
+ </div>
+ <div class="container-cent2">
+
+<h4 class="main-title">Inscris-toi à la news-letter pour ne rien louper et recevoir des offres uniques et personnalisées ! </h4>
+
+		<%= link_to "S'abonner", root_path,  class: "btn btn-primary3" %>
+
+
+<% end %>
+ </div>
+
+</div>

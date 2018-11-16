@@ -1,0 +1,576 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,900');
+html {zoom: 75%;
+}
+body {
+
+background-image: linear-gradient(to right top, #72c661, #8bc964, #a2cd6a, #b5d072, #c7d37b);
+}
+
+
+.form-control {
+
+  margin: 0 auto; width:50%;
+    position: relative;
+}
+
+
+
+
+
+.header
+{
+    height:90px;
+    background-size: cover;
+ -webkit-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.5px -1px 18px 0px rgba(0,0,0,0.75);
+  background-image: url("http://hdqwalls.com/wallpapers/material-design-forest-lu.jpg");
+}
+
+.header-container
+{
+    width:80%;
+    margin:auto;
+}
+
+.header-title
+{
+    float:left;
+    font-family: 'Poor Story', cursive;
+    line-height:85px;
+    color:white;
+}
+
+.em-mag{
+    font-size:18px;
+    margin-bottom:5px;
+
+}
+
+.header-link
+{
+    float:right;
+    line-height:85px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    padding-left:10px;
+    font-size:25px;
+
+}
+
+.header-logo
+{
+    float:left;
+    -webkit-filter: drop-shadow;
+    -moz-filter: drop-shadow;
+    filter: drop-shadow;
+}
+
+.header-logo:active,
+.header-logo:hover{
+    transform: scale(1.02, 1.02);
+   filter: brightness(1.2);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.header a{
+  color:white;
+  margin-right:10px;
+  text-decoration:none;
+}
+.header a:hover,
+.header a:active{
+  color:#1e7e34;
+  border-bottom:2px solid #1e7e34;
+  filter: brightness(1.2);
+}
+
+.connectIns {
+    font-size:20px;
+    font-weight: 600;
+
+}
+
+/* HEADER */
+
+
+/* TITLE / HEADING */
+
+
+.main-title{
+  margin-bottom:50px;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+}
+
+/* ------------- */
+/* TITLE / HEADING */
+
+/* USER / EDIT */
+
+
+.main-title{
+    margin-bottom:50px;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    color: white;
+    -webkit-filter: drop-shadow;
+    -moz-filter: drop-shadow;
+    filter: drop-shadow;
+  }
+  
+  /* ------------- */
+  /* USER / EDIT */
+
+.card{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-top:20px; 
+}
+  
+/* Home */
+.container {
+  height:100%;
+    width:100%;
+    position: relative;
+}
+  .container-cent{
+    margin-top:28%;
+    margin-bottom: 35%;
+    border-radius: 15px;
+     
+    
+    
+  }
+    .container-cent::before {
+      position: absolute;
+        
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+      
+    margin-bottom: 45%;
+    margin-left: 3%;
+    margin-right:  3%;
+    background-size: cover;
+   
+  
+  transition: all .6s;
+
+    
+     background-image: url("http://hdqwalls.com/wallpapers/material-design-forest-lu.jpg");
+   -webkit-filter: blur(2px);
+           -moz-filter: blur(2px);
+            -ms-filter: blur(2px);
+             -o-filter: blur(2px);
+                filter: blur(2px);
+-webkit-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.5px -1px 18px 0px rgba(0,0,0,0.75);
+ border-radius: 15px;
+    
+  }
+
+ 
+  
+
+.container-cent:hover::before {
+  
+  filter: blur(.5px);
+   
+}
+.container-cent2{
+    margin-top:-25%;
+    margin-bottom: 15em;
+    border-radius: 15px;
+     
+    
+  }
+    .container-cent2::before {
+      
+       position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+      margin-top:35%;
+    margin-bottom: 18%;
+    margin-left: 5%;
+    margin-right:5%;
+    background-size: cover;
+   
+  
+  transition: all .6s;
+
+    
+     background-image: url("http://hdqwalls.com/wallpapers/material-design-forest-lu.jpg");
+   -webkit-filter: blur(2px);
+           -moz-filter: blur(2px);
+            -ms-filter: blur(2px);
+             -o-filter: blur(2px);
+                filter: blur(2px);
+-webkit-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.5px -1px 18px 0px rgba(0,0,0,0.75);
+ border-radius: 15px;
+    
+  }
+
+ 
+  
+
+.container-cent2:hover::before {
+   
+  filter: blur(.5px);
+   
+}
+  .polbatt{
+    font-family: 'Poor Story', cursive;
+  }
+/* Home */
+
+/* FOOTER */
+
+.footer-container
+{
+    width:90%;
+    margin:auto;
+    justify-content:center;
+    display:inline;
+
+
+}
+
+.footer-link-container
+{
+   display:flex;
+   justify-content:center;
+   width:90%;
+   margin:auto;
+}
+
+.footer-heart-container
+{
+   display:flex;
+   justify-content:center;
+   width:80%;
+   margin:auto;
+   padding-top:25px;
+}
+
+.footer-link
+{
+  color:white;
+  font-size:25px;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  padding-right:55px;
+  padding-top:5px;
+
+}
+.footer-link:active,
+.footer-link:hover{
+    color:#1e7e34;
+    text-decoration:none;
+}
+
+
+.footer-main
+{
+  margin-right:50px;
+  padding-top:15px;
+  text-align:center;
+  color:white;
+
+}
+
+.footer-txt{
+    font-size:15px;
+    margin-top:5px;
+    font: weight 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer
+{
+    position:relative;
+    height:280px;
+    width:100%;
+    background-size: cover;
+     background-image: url("http://hdqwalls.com/wallpapers/material-design-forest-lu.jpg");
+    font-family: 'Anton', sans-serif;
+    margin-top:10em;
+    bottom:0;
+    -webkit-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+}
+
+.footer-second{
+    margin-top:30px;
+
+}
+
+/* ------------- */
+/* FOOTER */
+
+/* A BUTTON */
+
+#ins{
+    float:right;
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border:2px solid #1e7e34;
+    margin-right:350px;
+    color: white;
+  }
+  
+  #con{
+    float:left;
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border-color:#1e7e34;
+    margin-left:350px;
+    border:2px solid #1e7e34;
+    color: white;
+  }
+
+  #dec{
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border-color: white;
+    border:2px solid #1e7e34;
+    
+    color: white;
+  }
+
+.btn-primary{
+    background-color:#1e7e34;
+    border-color:#1e7e34;
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border-color:#1e7e34;
+    border:2px solid #1e7e34;
+    color: white;
+    margin-left: 450px;
+}
+.btn-primary2{
+    background-color:#1e7e34;
+    border-color:#1e7e34;
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border-color:#1e7e34;
+    border:2px solid #1e7e34;
+    color: white;
+    
+}
+.btn-primary3{
+  height:38px;
+    width:25%; 
+    background-color:#1e7e34;
+    border-color:#1e7e34;
+    background-color:transparent;
+    font-family: 'Poppins', sans-serif;
+    border-color:#1e7e34;
+    border:2px solid #1e7e34;
+    color: white;
+    margin-left: 415px;
+
+  }
+.btn-primary:active,
+.btn-primary:hover{
+    background-color: #1e7e34;
+    border-color:#1e7e34;
+    color:white;
+}
+#dec:active,
+#dec:hover,
+#con:active,
+#con:hover,
+#ins:active,
+#ins:hover{
+    background-color:#1e7e34;
+    border-color:#1e7e34;
+    color:white;
+}
+.btn-primary2:active,
+.btn-primary2:hover{
+    background-color: #1e7e34;
+    border-color:#1e7e34;
+    color:white;
+}
+#dec:active,
+#dec:hover,
+#con:active,
+#con:hover,
+#ins:active,
+#ins:hover{
+    background-color:#1e7e34;
+    border-color:#1e7e34;
+    color:white;
+}
+.btn-primary3:active,
+.btn-primary3:hover{
+    background-color: #1e7e34;
+    border-color:#1e7e34;
+    color:white;
+}
+#dec:active,
+#dec:hover,
+#con:active,
+#con:hover,
+#ins:active,
+#ins:hover{
+    background-color:#1e7e34;
+    border-color:#1e7e34;
+    color:white;
+}
+/* ------------- */
+/* A BUTTON */
+
+/* ALERT */
+
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    padding-bottom:0px;
+    margin-top:10px;
+    text-align: center;
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    padding-bottom:0px;
+    margin-top:10px;
+    text-align: center;
+ }
+
+.alert-success {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    color: white;
+    padding-bottom:0px;
+    margin-top:10px;
+    text-align: center;
+ }
+
+.alert-notice {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    color: white;
+    padding-bottom:0px;
+    margin-top:10px;
+    text-align: center;
+ }
+
+ /* ------------- */
+/* ALERT */
+
+
+/* VIEW PROFIL  */
+
+.main-title{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-profil{
+    margin-top:9em;
+    margin-bottom:39.4em;
+}
+
+/* VIEW FAQ  */
+ /* ------------- */
+
+
+/* VIEW FAQ  */
+
+.main-title-faq{
+    font-family: 'Oswald', sans-serif;
+}
+
+.title-faq{
+    font-family: 'Oswald', sans-serif;
+    border-bottom:1.5px solid rgb(155, 155, 155, 0.6);
+    width:10%;
+    margin-right:25px;
+    padding-bottom:5px;
+}
+
+.text-faq{
+    margin-top:1.25px;
+    margin-bottom:1.5em;
+}
+
+
+
+.faq{
+    margin-top:9em;
+    margin-bottom:15em;
+}
+
+/* VIEW FAQ  */
+ /* ------------- */
+
+
+/* FORMU INS / CONNE */
+
+
+.foredit{
+    margin-top:9em;
+    margin-bottom:17.1em;
+    padding:60px 40px ;
+    border:1.5px solid #1e7e34;
+    border-radius:5px;
+    -webkit-box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+    -moz-box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+    box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+}
+
+.forct{
+    margin-top:9em;
+    margin-bottom:17.1em;
+    padding:60px 40px ;
+    border:1.5px solid #1e7e34;
+    border-radius:15px;
+     background-size: cover;
+     background-image: url("http://hdqwalls.com/wallpapers/material-design-forest-lu.jpg");
+    -webkit-box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+    -moz-box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+    box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+}
+
+.forins{
+    margin-top:5em;
+    margin-bottom:11.5em;
+    padding:60px 40px ;
+    border:1.5px solid #1e7e34;
+    border-radius:15px;
+    background-size: cover;
+     background-image: url("http://hdqwalls.com/wallpapers/material-design-forest-lu.jpg");
+    -webkit-box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+    -moz-box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+    box-shadow: 7px 4px 21px 5px rgba(0,0,0,0.27);
+}
+
+.connex{
+    margin-top:2px;
+    margin-bottom:4px;
+    text-align: center;
+}
+
+ /* ------------- */
+/* FORMU INS / CONNE */
